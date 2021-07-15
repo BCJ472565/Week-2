@@ -65,13 +65,14 @@
         
         .grid-container1 {
             display: grid;
-            grid-template-columns: 20% 20% 20%;
+            grid-template-columns: 10% 10% 10%;
             padding: 10px;
         }
         .grid-container1 > div {
-            font-size: 30px
+            font-size: 18px
             
         }
+
         
         
         table, th, td {
