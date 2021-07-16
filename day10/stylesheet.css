@@ -1,38 +1,65 @@
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) {}
+
+nav {
+    float: left;
+    padding: 20px;
+    width: 30%;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+
+}
+
+aside {
+    float: left;
+    padding: 20px;
+    width: 30%;
+}
+
+
+
     table {
         overflow-x: auto;
-    
-    .grid-container1 {
-        display: grid;
-        grid-template-columns: 20% 20% 20%;
-        padding: 10px;
     }
-    .grid-container1 > div {
-        font-size: 30px
-        
+a {
+    text-align: left;
+}
+
+    label {
+        color: white;
     }
+    body {
+        background-size: cover;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+    }
+
     
     @media only screen and (max-width: 1067px) {
         /* for mobile phones: */
-    [class*="col-"] {
-        width: 49.75%;
+
     }
-    }
-    }
+    
     table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
         text-align: left;
+        padding: 30px;
     }
     h1 {
         font-size: 200%;
         text-align: center;
         border: 1px solid black;
     }
-    p {
-        border: 1px solid black;
-    }
-    
+form, label, input {
+    font-size: 100%;
+    text-align: left;
+}
+
+
     .item1 {
         grid-column: 2/4;
     }
@@ -40,7 +67,9 @@
         grid-row: 2/4;
         grid-column: 3;
     }
-    
+        p {
+        color: white;
+    }
     
 @media only screen and (max-width: 1067px) {
 
@@ -68,14 +97,7 @@
             border-collapse: collapse;
             text-align: left;
         }
-        h1 {
-            font-size: 200%;
-            text-align: center;
-            border: 1px solid black;
-        }
-        p {
-            border: 1px solid black;
-        }
+
         
         .item1 {
             grid-column: 2/4;
