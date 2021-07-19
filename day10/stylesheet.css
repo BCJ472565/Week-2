@@ -32,7 +32,7 @@ a {
         color: white;
     }
     body {
-        background-size: cover;
+        background-size: 100%;
         background-image: url("background.jpg");
         background-repeat: no-repeat;
     }
@@ -60,55 +60,52 @@ form, label, input {
 }
 
 
-    .item1 {
-        grid-column: 2/4;
-    }
-    .item2 {
-        grid-row: 2/4;
-        grid-column: 3;
-    }
-        p {
-        color: white;
-    }
+
     
-@media only screen and (max-width: 1067px) {
+@media only screen and (max-width: 800px) {
 
-    /* for mobile phones: */
-    @media only screen and (orientation: landscape) {
-        table {
-            overflow-x: auto;
-        
-        }
-        
-        .grid-container1 {
-            display: grid;
-            grid-template-columns: 10% 10% 10%;
-            padding: 10px;
-        }
-        .grid-container1 > div {
-            font-size: 18px
-            
-        }
-
-        
-        
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            text-align: left;
-        }
-
-        
-        .item1 {
-            grid-column: 2/4;
-        }
-        .item2 {
-            grid-row: 2/4;
-            grid-column: 3;
-        }
-        }
+    body {
+        background-size: 100%;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
     }
+img{
+    height: 50%;
+}
 
-    form {
-        font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 100%;
+        background-image: url("background.jpg");
+        background-repeat: repeat;
     }
+    input {
+        width:10%;
+
+    }
+    label, a, p {
+        font-size: 30%;
+    }
+img{
+    height: 200%;
+}
+
+nav {
+    float: left;
+    width: 10%;
+}
+
+article {
+    float: left;
+    width: 50%;
+
+}
+
+aside {
+    float: left;
+    width: 10%;
+}
+
+}
