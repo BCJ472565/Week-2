@@ -1,0 +1,130 @@
+@media only screen and (orientation: landscape) {}
+
+nav {
+    float: left;
+    padding: 20px;
+    width: 30%;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+
+}
+
+aside {
+    float: left;
+    padding: 20px;
+    width: 30%;
+}
+
+a {
+    color: rgb(255, 0, 170);
+}
+
+    table {
+        overflow-x: auto;
+    }
+a {
+    text-align: left;
+}
+
+    label {
+        color: white;
+    }
+    body {
+        background-size: 100%;
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+    }
+
+    img.sixty {
+        height: 60%;
+        width: 60%;
+    }
+    @media only screen and (max-width: 1067px) {
+        /* for mobile phones: */
+
+    }
+    
+    table, th, td {
+
+        border-collapse: collapse;
+        text-align: left;
+        padding: 30px;
+    }
+    h1 {
+        font-size: 200%;
+        text-align: left;
+        color: white;
+    }
+form, label, input {
+    font-size: 100%;
+    text-align: left;
+}
+
+img.fifty {
+    height: 30%;
+    width: 30%;
+}
+
+img.twenty {
+    height: 20%;
+    width: 20%;
+}
+img.sixty {
+    height: 60%;
+    width: 60%;
+}
+    
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-size: 100%;
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+    }
+img{
+    height: 50%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 100%;
+        background-image: url("../images/background.jpg");
+        background-repeat: repeat;
+    }
+    input {
+        width:10%;
+
+    }
+    label, a, p {
+        font-size: 30%;
+    }
+img{
+    height: 200%;
+}
+
+nav {
+    float: left;
+    width: 10%;
+}
+
+article {
+    float: left;
+    width: 50%;
+
+}
+
+aside {
+    float: left;
+    width: 60%;
+}
+img.sixty {
+    height: 60%;
+    width: 60%;
+}
+}
