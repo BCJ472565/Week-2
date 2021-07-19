@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-<title>Responsive</title>
+
+<!--elements that are the same as a page previous won't have a comment. i did obtain permission to do so-->
+
+<title>Curtis Butler</title>
     <link rel="stylesheet" href="css/stylesheet.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,25 +18,39 @@
 
 
 <article>
-<img class="fifty" src="images/index.png" cite="Hirohiko" alt="jojos quiz logo" cite="Hirohiko Araki" style="padding:20px"><br>
-
+<img class="fifty" src="images/index.png"  alt="jojos quiz logo" style="padding:0"><br><cite>Hirohiko Araki</cite><br><br>
+<!--the start of the form. the action tells the form how to when submit-->
                 <form action="mailto:w0468710@campus.nscc.ca?subject=From%20our%20Website" 
 
                 method="post" enctype="text/plain">
+                <!--the start of a table to help format my quiz-->
                 <table>
+                    <!--table row-->
                     <tr>
+                        <!--table data-->
                     <td>
+                        <!--first question-->
+                        <!--label to tell the user what the question is-->
                     <label for="wijw">who is Jonathan wife</label><br><br>
+                    <!--an input set as radio to have this a multiple choice question but you can only choose one question-->
                     <input type="radio" id="erina" name="wijw" value="erina">
+                    <!--label to tell the user what the above input is for-->
                     <label for="erina">Erina</label><br>
+                    <!--an input set as radio to have this a multiple choice question but you can only choose one question-->
                     <input type="radio" id="robert" name="wijw" value="robert">
+                    <!--label to tell the user what the above input is for-->
                     <label for="robert">Robert</label><br>
+                    <!--an input set as radio to have this a multiple choice question but you can only choose one question-->
                     <input type="radio" id="Dio" name="wijw" value="Dio">
+                    <!--label to tell the user what the above input is for-->
                     <label for="Dio">Dio</label><br>
+                    <!--an input set as radio to have this a multiple choice question but you can only choose one question-->
                     <input type="radio" id="poco" name="wijw" value="poco">
+                    <!--label to tell the user what the above input is for-->
                     <label for="poco">Poco</label><br>
                 </td>
                 <td>                
+                    <!--second question structured the same as before-->
                     <label for="wdbti">What did Brando turn into</label><br><br>
                     <input type="radio" id="dead" name="wdbti" value="dead">
                     <label for="dead">Dead</label><br>
@@ -48,6 +65,7 @@
             </tr>
             <tr>
                 <td>
+                    <!--third question structured the same as before-->
                 <label for="hdbd">How does Brando "die"</label><br><br>
                 <input type="radio" id="shipexplosion" name="wdbd" value="shipexplosion">
                 <label for="shipexplosion">Ship explosion</label><br>
@@ -59,6 +77,7 @@
                 <label for="hamon">Hamon</label><br>
             </td>
             <td>                
+                <!--last question structured the same as before-->
                 <label for="watsmuf">What are the<br> Stone Masks used for</label><br><br>
                 <input type="radio" id="Bettering_Hamon_abilities" name="watsmuf" value="Bettering_Hamon_abilities">
                 <label for="Bettering_Hamon_abilities">Bettering Hamon abilities</label><br>
@@ -76,6 +95,7 @@
         </tr>
 
                 </table>
+                <!--an input on the outside of the table(bottom left of the table) to submit the answers to my email and redirect you to the homepage-->
                 <input onclick="window.location.href='index.html'" type="submit" value="Send"> 
             </form>
             </article>

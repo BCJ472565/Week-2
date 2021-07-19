@@ -1,0 +1,104 @@
+@media only screen and (orientation: landscape) {
+    table {
+        overflow-x: auto;
+    
+    }
+    
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 10% 10% 10%;
+        padding: 10px;
+    }
+    .grid-container1 > div {
+        font-size: 30px
+        
+    }
+    
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        padding: 10px;
+    }
+    .grid-container1 > div {
+        font-size: 30px
+        
+    }
+    
+    @media only screen and (max-width: 1067px) {
+        /* for mobile phones: */
+    [class*="col-"] {
+        width: 49.75%;
+    }
+    }
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: left;
+    }
+    h1 {
+        font-size: 200%;
+        text-align: center;
+        border: 1px solid black;
+    }
+    p {
+        border: 1px solid black;
+    }
+    
+    .item1 {
+        grid-column: 2/4;
+    }
+    .item2 {
+        grid-row: 2/4;
+        grid-column: 3;
+    }
+    
+    
+@media only screen and (max-width: 1067px) {
+
+    /* for mobile phones: */
+    @media only screen and (orientation: landscape) {
+        table {
+            overflow-x: auto;
+        
+        }
+        
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: 10% 10% 10%;
+            padding: 10px;
+        }
+        .grid-container1 > div {
+            font-size: 18px
+            
+        }
+
+        
+        
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        h1 {
+            font-size: 200%;
+            text-align: center;
+            border: 1px solid black;
+        }
+        p {
+            border: 1px solid black;
+        }
+        
+        .item1 {
+            grid-column: 2/4;
+        }
+        .item2 {
+            grid-row: 2/4;
+            grid-column: 3;
+        }
+        }
+    }
+
+    form {
+        font-size: 18px;
+    }

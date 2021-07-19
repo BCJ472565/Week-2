@@ -18,17 +18,18 @@ aside {
     padding: 20px;
     width: 30%;
 }
-
+cite {
+    color: white;
+}
 a {
     color: rgb(255, 0, 170);
+    text-align: left;
 }
 
     table {
         overflow-x: auto;
     }
-a {
-    text-align: left;
-}
+
 
     label {
         color: white;
@@ -40,8 +41,8 @@ a {
     }
 
     img.sixty {
-        height: 60%;
-        width: 60%;
+        height: 40%;
+        width: 40%;
     }
     @media only screen and (max-width: 1067px) {
         /* for mobile phones: */
@@ -74,8 +75,8 @@ img.twenty {
     width: 20%;
 }
 img.sixty {
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
 }
     
 @media only screen and (max-width: 800px) {
@@ -124,7 +125,7 @@ aside {
     width: 60%;
 }
 img.sixty {
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
 }
 }
