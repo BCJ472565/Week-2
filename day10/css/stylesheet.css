@@ -1,4 +1,4 @@
-@media only screen and (orientation: landscape) {}
+@media only screen and (orientation: landscape) {
 
 nav {
     float: left;
@@ -33,7 +33,7 @@ a {
 }
 
 a, p, h1 {
-    font-size: 180%;
+    font-size: 252%;
 }
 
     table {
@@ -71,7 +71,6 @@ form, label, input {
 
 img.fifty {
     height: 50%;
-    width: 50%;
 }
 
 img.twenty {
@@ -82,54 +81,18 @@ img.sixty {
     height: 40%;
     width: 40%;
 }
-    
-@media only screen and (max-width: 800px) {
 
-    body {
-        background-size: 100%;
-        background-image: url("../images/background.jpg");
-        background-repeat: no-repeat;
+@media screen and (max-width: 1319px) {
+    img.fifty {
+        height: 40%;
+        width: 40%;
     }
-img{
-    height: 50%;
-}
-
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        background-size: 100%;
-        background-image: url("../images/background.jpg");
-        background-repeat: repeat;
+    a {
+        font-size: 20px;
     }
-    input {
-        width:10%;
-
+    aside {
+        padding: 12px;
     }
-    label, a, p {
-        font-size: 30%;
-    }
-img{
-    height: 200%;
 }
 
-nav {
-    float: left;
-    width: 10%;
-}
-
-article {
-    float: left;
-    width: 50%;
-
-}
-
-aside {
-    float: left;
-    width: 60%;
-}
-img.sixty {
-    height: 40%;
-    width: 40%;
-}
 }
