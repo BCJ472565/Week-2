@@ -1,0 +1,102 @@
+@media only screen and (orientation: landscape) {
+
+nav {
+    float: left;
+    display: block;
+    padding: 10px;
+    height: 10%;
+    width: 97%;
+    border: 2px solid white;
+    text-align: left;
+
+}
+
+
+a {
+    color: white;
+    padding: 20px;
+    
+}
+
+article {
+    float: left;
+    padding: 25px;
+    width: auto;
+    height: auto;
+    border: 2px solid white
+}
+
+aside {
+    float: left;
+    padding: 20px;
+    width: 30%;
+    height: auto;
+    border: 2px solid white
+}
+cite {
+    color: white;
+}
+
+img.logoo {
+    width: 100px;
+}
+
+
+
+    body {
+        background-size: 100%;
+        background-image: url("../images/background.png");
+        background-repeat: repeat;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    nav {
+        overflow-wrap: break-word;
+        float: left;
+        display: block;
+        padding: 10px;
+        width: 150px;
+        height: 100%;
+        border: 2px solid white
+    }
+    
+    article {
+        float: left;
+        padding: 25px;
+        width: auto;
+        border: 2px solid white
+    }
+    
+    a {
+        color: white;
+        padding: 20px;
+        
+    }
+
+    aside {
+        float: left;
+        padding: 20px;
+        width: 30%;
+        border: 2px solid white
+    }
+    cite {
+        color: white;
+    }
+    
+    img.logoo {
+        width: 100px;
+        padding: 15px;
+    }
+    
+    
+    
+        body {
+            background-size: 100%;
+            background-image: url("../images/background.png");
+            background-repeat: repeat;
+        }
+        a {
+            padding: 8px;
+        }
+    }
